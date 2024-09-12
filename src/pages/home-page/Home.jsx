@@ -11,7 +11,7 @@ const Home = () => {
               <h5>IMPORTANT SCENES</h5>
               <div className="important-list">
                 <div>
-                  <i className="fa-solid fa-list"></i>
+                  {/* <i className="fa-solid fa-list"></i> */}
                   <span>1.INT. CONFERENCE ROOM-DAY</span>
                 </div>
                 <small>9</small>
@@ -21,7 +21,7 @@ const Home = () => {
               <h5>custom shot lists</h5>
               <div className="custom-list">
                 <div>
-                  <i className="fa-solid fa-list"></i>
+                  {/* <i className="fa-solid fa-list"></i> */}
                   <span> &quot;The Pen &quot;.Chase Scene</span>
                 </div>
                 <small>9</small>
@@ -29,7 +29,7 @@ const Home = () => {
             </div>
           </div>
           <div className="inner-section-3">
-            <hr />
+            <hr className="hr-border" />
             <button>+ New List </button>
           </div>
         </div>
@@ -64,7 +64,7 @@ const Home = () => {
                   <div className="card-content">
                     <p>WE - Eye Level - Static - Hand Held</p>
                   </div>
-                  <hr />
+                  {/* <hr /> */}
                   <div className="card-footer">
                     <small>Intern darts off</small>
                   </div>
