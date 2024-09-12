@@ -1,0 +1,17 @@
+.layout {
+  display: flex;
+  height: 100vh;
+  scroll-behavior: smooth;
+  padding: 0.5rem;
+  justify-content: space-between;
+  overflow: hidden;
+
+  & .left {
+    width: 55px;
+  }
+
+  & .right {
+    flex-grow: 15;
+    overflow-y: auto;
+  }
+}

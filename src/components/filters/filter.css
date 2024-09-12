@@ -1,0 +1,53 @@
+.filter-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0.45rem;
+  margin: 0.35rem 0;
+  color: #4d4d4d;
+
+  & .filter-left {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    color: #4d4d4d;
+
+    & select {
+      border: 1px solid #837f7f7a;
+      background: none;
+      padding: 0.4rem 0.5rem;
+      color: #4d4d4d;
+    }
+
+    & i {
+      border: 1px solid #837f7f7a;
+      padding: 0.44rem 0.5rem;
+      font-size: 0.85rem;
+
+      &:last-child {
+        padding: 0.44rem 0.6rem;
+      }
+    }
+  }
+
+  & .filter-right {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+
+    & .zoom {
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+
+      & i:not(:nth-child(2)) {
+        font-size: 0.9rem;
+      }
+    }
+
+    & .screens {
+      display: flex;
+      gap: 0.5rem;
+      font-size: 1.2rem;
+    }
+  }
+}
